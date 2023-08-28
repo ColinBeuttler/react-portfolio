@@ -175,14 +175,14 @@
 
 @media screen and (max-width: 550px){
    #biotext{
-    width: 370px;
+    width: 350px;
    } 
 
    #biotext p{
-    font-size: 10px;
+    font-size: 8px;
    }
 
    #biotext a{
-    font-size: 10px;
+    font-size: 8px;
    }
 }
