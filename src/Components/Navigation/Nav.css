@@ -12,6 +12,16 @@
     float: left;
     margin-top: 15px;
     position: fixed;
+    display: block;
+}
+
+.logo{
+    background-image: url("../../img/LogoSolid.png");
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 30px;
 }
 
 .navLink {
@@ -40,7 +50,6 @@
 
 .active::before {
     margin-left: -1rem;
-    margin-top: -3.5px;
     font-size: 20px;
     content: "⚛";
     position: absolute;
