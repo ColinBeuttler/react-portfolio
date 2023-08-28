@@ -54,3 +54,9 @@
     content: "⚛";
     position: absolute;
 }
+
+@media screen and (max-width:550px){
+    /* .active::before{
+        padding-top: -10px;
+    }  */
+}
