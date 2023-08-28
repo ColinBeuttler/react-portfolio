@@ -172,3 +172,17 @@
         margin-top: 100px;
     }
 }
+
+@media screen and (max-width: 550px){
+   #biotext{
+    width: 370px;
+   } 
+
+   #biotext p{
+    font-size: 10px;
+   }
+
+   #biotext a{
+    font-size: 10px;
+   }
+}
