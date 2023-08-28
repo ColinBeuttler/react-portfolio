@@ -13,9 +13,9 @@ class ProjectPage extends Component {
 
                 <Nav/>
 
-                <Contacts/>
-
                 <ProjectPanel />
+
+                <Contacts/>
 
             </Auxcomp>
         )

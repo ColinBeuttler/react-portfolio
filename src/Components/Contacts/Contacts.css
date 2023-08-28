@@ -1,11 +1,30 @@
+
 #contactpanel {
-    width: 50%;
+    width: 100%;
     z-index: 2;
-    position: fixed;
-    margin-left: 40%;
+    position: relative;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.contactsTitle{
+    text-align: center;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.contactDivider{
+    width: 25%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
 
 .contactlink {
+    display: inline-block;
     animation: fadeIn 5s;
     background-position: center;
     object-fit: fill;
@@ -29,12 +48,10 @@
 }
 
 #github {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: .7rem;
-    float: right;
-    height: 30px;
-    width: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 27px;
+    width: 27px;
     border-radius: 4rem;
     background: url("../../img/github-mark.png");
     background-size: contain;
@@ -50,10 +67,9 @@
 
 #linkedIn {
     /* border-radius: 4rem; */
-    float: right;
     margin-top: .8rem;
-    height: 28px;
-    width: 28px;
+    height: 25px;
+    width: 25px;
     background-image: url("../../img/LinkedInBlack.png");
     background-size: contain;
 }
@@ -73,8 +89,7 @@
 
 #gmail {
     /* border-radius: 4rem; */
-    float: right;
-    margin-top: .7rem;
+    /* margin-top: .7rem; */
     height: 33px;
     width: 33px;
     background-image: url("../../img/gmailBlackLetter.png");

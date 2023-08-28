@@ -12,9 +12,9 @@ class CodePage extends Component {
 
                 <Nav />
 
-                <Contacts />
-
                 <CodePanel />
+
+                <Contacts />
 
             </Auxcomp>
         )
