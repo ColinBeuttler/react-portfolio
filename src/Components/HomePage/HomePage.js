@@ -12,11 +12,11 @@ class Home extends Component {
 
                 <Nav />
 
-                <Contacts />
-
                 <About />
 
                 <Terminal />
+
+                <Contacts />
 
             </Auxcomp>
         )

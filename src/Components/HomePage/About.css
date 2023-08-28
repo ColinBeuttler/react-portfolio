@@ -210,9 +210,34 @@
 
 @media screen and (max-width:550px){
     .bio {
-        padding-top: 20%;
+        padding-top: 7%;
+        padding-left: 5%;
+    }
+    .biowrapper{
+        margin-left: 0;
     }
     .innernode{
-        font-size: 12px;
+        font-size: 10px;
+        padding-left: .2rem;
+    padding-right: .2rem;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .greeting{
+        margin-left: 40px;
+        width: 240px;
+        height: 50px;
+    }
+    .welcome{
+        font-size: 24px;
+    }
+    .im{
+        font-size: 20px;
+    }
+
+    .divider{
+        width: 330px;
+        margin-left: 23px;
     }
 }
