@@ -5,7 +5,7 @@ import "./Contacts.css"
 function Contacts(){
     return(
         <div id="contactpanel">
-            <div className="contactsTitle">Contacts</div>
+            <div className="contactsTitle">contacts</div>
             <div className="contactDivider"></div>
         <a href="mailto: cbeuttler@hotmail.com">
         <span className="contactlink" id="gmail">
