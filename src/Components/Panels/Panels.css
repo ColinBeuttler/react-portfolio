@@ -265,6 +265,7 @@
 
     .innerpanel{
         height: 150px;
+        position: relative;
     }
 
     #codepanel{
