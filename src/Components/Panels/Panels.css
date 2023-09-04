@@ -260,14 +260,14 @@
 
 @media screen and (max-width: 550px){
     #projectspanel{
-        padding-top: 35%;
+        padding-top: 25%;
     }
 
     .innerpanel{
-        height: 150px;
+        height: 190px;
     }
 
     #codepanel{
-        padding-top: 35%; 
+        padding-top: 25%; 
     }
 }
