@@ -257,3 +257,19 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 550px){
+    #projectspanel{
+        padding-top: 35%;
+    }
+
+    .innerpanel{
+        height: 150px;
+        position: relative;
+    }
+
+    #codepanel{
+        padding-top: 35%; 
+    }
+
+}
