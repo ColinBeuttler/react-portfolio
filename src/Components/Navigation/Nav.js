@@ -6,11 +6,11 @@ function Nav(){
     return(
         <div className="navBar">
             <a className="logo"></a>
-            <NavLink className="navLink" to="/" activeClassName="active">home</NavLink>
+            <NavLink className="navLink" to="/" activeClassName="active">Home</NavLink>
             <a className="node-separtor">/</a>
-            <NavLink className="navLink" to="/code" activeClassName="active">code</NavLink>
+            <NavLink className="navLink" to="/code" activeClassName="active">Code</NavLink>
             <a className="node-separtor">/</a>
-            <NavLink className="navLink" to="/projects" activeClassName="active">projects</NavLink>
+            <NavLink className="navLink" to="/projects" activeClassName="active">Projects</NavLink>
         </div>
     )
 }
