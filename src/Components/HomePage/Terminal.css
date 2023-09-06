@@ -175,7 +175,8 @@
 
 @media screen and (max-width: 550px){
    #biotext{
-    width: 330px;
+    margin-left: 40px;
+    width: 340px;
    } 
 
    #biotext p{
